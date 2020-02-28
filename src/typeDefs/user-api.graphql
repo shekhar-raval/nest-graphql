@@ -1,0 +1,32 @@
+type UserType {
+  id: ID
+  name: String
+  email: String
+  active: Boolean
+}
+
+type AuthData {
+  user: UserType
+  token: String
+}
+
+
+input RegisterInput {
+  name: String!
+  email: String!
+  password: String!
+}
+
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+
+type Query {
+  Login(data: LoginInput): AuthData
+}
+
+type Mutation {
+  Register(data: RegisterInput): AuthData
+}
