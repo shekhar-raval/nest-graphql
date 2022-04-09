@@ -34,7 +34,7 @@
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.7",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.2",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
